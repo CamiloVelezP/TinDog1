@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>TinDog</title>
+  <!-- css stylesheets & Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.css">
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+    rel="stylesheet">
+  <!-- Font awesome -->
+  <script src="https://kit.fontawesome.com/46f90b3335.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <section class= "seccion-coloreada" id="title">
+    <div class="container-fluid">
+
+      <nav class="navbar navbar-expand-lg navbar-dark ">
+        <a class="navbar-brand" href="">tindog</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contacto</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#pricing">Precios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#cta">Descarga</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+
+      <div class="row">
+        <div class="col-lg-6">
+          <h1 class="encabezado-grande">Un alma gemela para tu amigo perruno.</h1>
+          <button type="button" class="btn btn-dark btn-lg boton-descarga"><i class="fab fa-apple"></i> Descarga</button>
+          <button type="button" class="btn btn-outline-light btn-lg boton-descarga"><i class="fab fa-google-play"></i> Descarga</button>
+        </div>
+        <div class="col-lg-6">
+          <img class="imagen-titulo" src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Features -->
+
+  <section class= "seccion-blanca" id="features">
+    <div class="container-fluid">
+
+
+      <div class="row">
+        <div class="col-lg-4 caja-caracteristica">
+          <i class="fas fa-check-circle fa-4x imagen-caracteristica"></i>
+          <h3 class="titulo-caracteristica">Fácil de usar.</h3>
+          <p>Tan fácil que tu perro podría usarla.</p>
+        </div>
+        <div class="col-lg-4 caja-caracteristica">
+          <i class="fas fa-bullseye fa-4x imagen-caracteristica"></i>
+          <h3 class="titulo-caracteristica">Clientes élite</h3>
+          <p>Tenemos a todos los perros que puedas imaginar.</p>
+        </div>
+        <div class="col-lg-4 caja-caracteristica">
+          <i class="fas fa-heart fa-4x imagen-caracteristica"></i>
+          <h3 class="titulo-caracteristica">Garantizado.</h3>
+          <p>Encuentra el amor para tu perro o te devolvemos el dinero.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Testimonials -->
+
+  <section class = "seccion-coloreada" id="testimonials">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active container-fluid">
+          <h2 class="texto-testimonio">No tengo que estar oliendo más perros, con TinDog encontré el amor. Guau.</h2>
+          <img class="imagen-perrito" src="images/dog-img.jpg" alt="dog-profile">
+          <em>Max, Medellín</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="texto-testimonio">Mi perro era tan solitario, pero con TinDog encontró el amor de su vida, o eso creo</h2>
+          <img class="imagen-perrito" src="images/lady-img.jpg" alt="lady-profile">
+          <em>Sofia, Envigado</em>
+        </div>
+        <div class="carousel-item container-fluid">
+          <h2 class="texto-testimonio">Antes era muy feliz, pero cuando mi amo descubrió Tindog fui aún más feliz.</h2>
+          <img class="imagen-perrito" src="images/ice-image.png" alt="dog-profile">
+          <em>Ice, Caldas</em>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Anterior</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Siguiente</span>
+      </button>
+    </div>
+
+
+
+  </section>
+
+
+  <!-- Press -->
+
+  <section class = "seccion-coloreada" id="press">
+    <img class="logo-prensa" src="images/techcrunch.png" alt="tc-logo">
+    <img class="logo-prensa" src="images/tnw.png" alt="tnw-logo">
+    <img class="logo-prensa" src="images/bizinsider.png" alt="biz-insider-logo">
+    <img class="logo-prensa" src="images/mashable.png" alt="mashable-logo">
+  </section>
+
+
+  <!-- Pricing -->
+
+  <section class = "seccion-blanca" id="pricing">
+    <h2 class="encabezado-seccion">Un plan para cada perro</h2>
+    <p>Planes simples y baratos para ti y tu perro</p>
+    <div class="row">
+      <div class="columna-precio col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Chihuahua</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="texto-precio">Gratis</h2>
+            <p>5 Matches Cada Día</p>
+            <p>10 Mensajes Cada Día</p>
+            <p>Uso Ilimitado De La App</p>
+            <div class="d-grid gap-1">
+              <button type="button" class="btn btn-lg btn-block btn-outline-dark">Regístrate </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columna-precio col-lg-4 col-md-6">
+        <div class="card">
+          <div class="card-header">
+            <h3>Labrador</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="texto-precio">$15000 / mes</h2>
+            <p>Matches Ilimitados</p>
+            <p>Mensajes Ilimitados</p>
+            <p>Uso Ilimitado De La App</p>
+            <div class="d-grid gap-1">
+              <button type="button" class="btn btn-lg btn-block btn-dark">Registrate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="columna-precio col-lg-4">
+        <div class="card">
+          <div class="card-header">
+            <h3>Mastiff</h3>
+          </div>
+          <div class="card-body">
+            <h2 class="texto-precio">$40000 / mes</h2>
+            <p>Perfil Prioritario</p>
+            <p>Matches Ilimitados</p>
+            <p>Mensajes Ilimitados</p>
+            <p>Uso Ilimitado De La App</p>
+            <div class="d-grid gap-1">
+              <button type="button" class="btn btn-lg btn-block btn-dark">Registrate</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Call to Action -->
+
+  <section class = "seccion-coloreada" id="cta">
+    <div class="container-fluid">
+      <h3 class="encabezado-grande">Encuentra El Verdadero Amor De La Vida De Tu Perro Hoy</h3>
+      <button class="btn btn-lg btn-dark boton-descarga" type="button"><i class="fab fa-apple"></i> Descarga</button>
+      <button class="btn btn-lg btn-light boton-descarga" type="button"><i class="fab fa-google-play"></i> Descarga</button>
+    </div>
+  </section>
+
+
+  <!-- Footer -->
+
+  <footer class = "seccion-blanca" id="footer">
+    <div class="container-fluid">
+      <a class="icono-red fab fa-facebook-f" href= "https://www.facebook.com/camilo.velezpalacio1"></a>
+      <a class="icono-red fab fa-twitter" href="https://twitter.com/camilov24522442"></a>
+      <a class="icono-red fab fa-instagram"href= "https://www.instagram.com/cvprm8/"></a>
+      <a class="icono-red fas fa-at" href= "https://camilovelezp.github.io/cvcss/"></a>
+      <p>© Copyright 2021 GALILA Business</p>
+    </div>
+  </footer>
+
+
+</body>
+
+</html>

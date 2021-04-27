@@ -1,0 +1,135 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+p{
+  color: #8f8f8f;
+}
+a{
+  text-decoration: none;
+}
+/* container */
+.container-fluid{
+  padding: 7% 15%;
+}
+/* secciones */
+.seccion-coloreada{
+  background-color: #ff4c68;
+  color: #fff;
+}
+.seccion-blanca{
+  background-color: #fff;
+}
+/* encabezados */
+.encabezado-grande{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.encabezado-seccion{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+/* Navigation bar */
+.navbar{
+  padding: 0 0 4.5rem;
+}
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item{
+  padding: 0 18px;
+}
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+/* Botones descarga */
+.boton-descarga{
+  margin:5% 3% 5% 0;
+}
+/* Seccion titulo */
+#title .container-fluid{
+  padding: 3% 14% 7%;
+  text-align: left;
+}
+/* Imagen titulo */
+.imagen-titulo{
+  width: 28%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 26%;
+}
+
+/* seccion caracteristicas */
+#features{
+  position: relative;
+}
+.titulo-caracteristica{
+  font-size: 1.5rem;
+}
+.texto-testimonio{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.imagen-caracteristica{
+ color:  #ef8172;
+ margin-bottom: 1rem;
+}
+.imagen-caracteristica:hover{
+color: #FF4c68;
+}
+.caja-caracteristica{
+  padding: 5%;
+}
+/* seccion testimonio */
+#testimonials{
+  background-color: #EF8172;
+}
+.imagen-perrito{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press{
+  background-color: #EF8172;
+  padding-bottom: 3%;
+}
+.logo-prensa{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+  /* seccion precios */
+#pricing{
+    padding: 100px;
+}
+.columna-precio{
+  padding: 3% 2%;
+}
+.texto-precio{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+ /* seccion al pie */
+.icono-red{
+  margin: 20px 10px;
+}
+@media (max-width: 1028px) {
+  #title{
+    text-align: center;
+  }
+  .imagen-titulo{
+    position: static;
+    transform: rotate(0);
+      width: 60%;
+
+  }
+
+}
